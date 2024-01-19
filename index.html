@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Calcule aqui!</title>
+</head>
+
+<body>
+  <header>
+    <h1>Calcule aqui!</h1>
+    <p>Calcule o valor da taxa do alvará de construção de forma rápida e eficiênte.</p>
+  </header>
+  <main>
+    <select name="cidades">
+      <option disabled>Selecione uma cidade</option>
+      <option name="CocalDoSul">Cocal do Sul</option>
+    </select>
+    <br>
+    <label>Metragem:
+      <input type="number" min="1">
+    </label>
+    <br>
+    <button onclick="BotaoCalcular()">Calcular</button>
+    <button onclick="LimparDados()">Novo Cálculo</button>
+  </main>
+</body>
+
+</html>
